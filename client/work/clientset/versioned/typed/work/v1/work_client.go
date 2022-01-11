@@ -3,8 +3,8 @@
 package v1
 
 import (
-	"github.com/open-cluster-management/api/client/work/clientset/versioned/scheme"
-	v1 "github.com/open-cluster-management/api/work/v1"
+	"github.com/stolostron/api/client/work/clientset/versioned/scheme"
+	v1 "github.com/stolostron/api/work/v1"
 	rest "k8s.io/client-go/rest"
 )
 

@@ -5,7 +5,7 @@ package versioned
 import (
 	"fmt"
 
-	operatorv1 "github.com/open-cluster-management/api/client/operator/clientset/versioned/typed/operator/v1"
+	operatorv1 "github.com/stolostron/api/client/operator/clientset/versioned/typed/operator/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1 "github.com/open-cluster-management/api/client/cluster/clientset/versioned/typed/cluster/v1"
+	v1 "github.com/stolostron/api/client/cluster/clientset/versioned/typed/cluster/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

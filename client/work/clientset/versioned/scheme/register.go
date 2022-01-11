@@ -3,7 +3,7 @@
 package scheme
 
 import (
-	workv1 "github.com/open-cluster-management/api/work/v1"
+	workv1 "github.com/stolostron/api/work/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

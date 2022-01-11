@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "github.com/open-cluster-management/api/client/work/clientset/versioned"
-	workv1 "github.com/open-cluster-management/api/client/work/clientset/versioned/typed/work/v1"
-	fakeworkv1 "github.com/open-cluster-management/api/client/work/clientset/versioned/typed/work/v1/fake"
+	clientset "github.com/stolostron/api/client/work/clientset/versioned"
+	workv1 "github.com/stolostron/api/client/work/clientset/versioned/typed/work/v1"
+	fakeworkv1 "github.com/stolostron/api/client/work/clientset/versioned/typed/work/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

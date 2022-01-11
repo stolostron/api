@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "github.com/open-cluster-management/api/client/addon/clientset/versioned"
-	addonv1alpha1 "github.com/open-cluster-management/api/client/addon/clientset/versioned/typed/addon/v1alpha1"
-	fakeaddonv1alpha1 "github.com/open-cluster-management/api/client/addon/clientset/versioned/typed/addon/v1alpha1/fake"
+	clientset "github.com/stolostron/api/client/addon/clientset/versioned"
+	addonv1alpha1 "github.com/stolostron/api/client/addon/clientset/versioned/typed/addon/v1alpha1"
+	fakeaddonv1alpha1 "github.com/stolostron/api/client/addon/clientset/versioned/typed/addon/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

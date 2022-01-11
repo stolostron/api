@@ -1,4 +1,4 @@
-module github.com/open-cluster-management/api
+module github.com/stolostron/api
 
 go 1.15
 

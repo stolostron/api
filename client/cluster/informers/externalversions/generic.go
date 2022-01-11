@@ -5,8 +5,8 @@ package externalversions
 import (
 	"fmt"
 
-	v1 "github.com/open-cluster-management/api/cluster/v1"
-	v1alpha1 "github.com/open-cluster-management/api/cluster/v1alpha1"
+	v1 "github.com/stolostron/api/cluster/v1"
+	v1alpha1 "github.com/stolostron/api/cluster/v1alpha1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

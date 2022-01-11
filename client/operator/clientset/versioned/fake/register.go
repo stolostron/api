@@ -3,7 +3,7 @@
 package fake
 
 import (
-	operatorv1 "github.com/open-cluster-management/api/operator/v1"
+	operatorv1 "github.com/stolostron/api/operator/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

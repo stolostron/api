@@ -18,9 +18,9 @@ addon/v1alpha1 \
 "
 
 API_PACKAGES="\
-github.com/open-cluster-management/api/cluster/v1,\
-github.com/open-cluster-management/api/cluster/v1alpha1,\
-github.com/open-cluster-management/api/work/v1,\
-github.com/open-cluster-management/api/operator/v1,\
-github.com/open-cluster-management/api/addon/v1alpha1\
+github.com/stolostron/api/cluster/v1,\
+github.com/stolostron/api/cluster/v1alpha1,\
+github.com/stolostron/api/work/v1,\
+github.com/stolostron/api/operator/v1,\
+github.com/stolostron/api/addon/v1alpha1\
 "

@@ -3,11 +3,11 @@
 package fake
 
 import (
-	clientset "github.com/open-cluster-management/api/client/cluster/clientset/versioned"
-	clusterv1 "github.com/open-cluster-management/api/client/cluster/clientset/versioned/typed/cluster/v1"
-	fakeclusterv1 "github.com/open-cluster-management/api/client/cluster/clientset/versioned/typed/cluster/v1/fake"
-	clusterv1alpha1 "github.com/open-cluster-management/api/client/cluster/clientset/versioned/typed/cluster/v1alpha1"
-	fakeclusterv1alpha1 "github.com/open-cluster-management/api/client/cluster/clientset/versioned/typed/cluster/v1alpha1/fake"
+	clientset "github.com/stolostron/api/client/cluster/clientset/versioned"
+	clusterv1 "github.com/stolostron/api/client/cluster/clientset/versioned/typed/cluster/v1"
+	fakeclusterv1 "github.com/stolostron/api/client/cluster/clientset/versioned/typed/cluster/v1/fake"
+	clusterv1alpha1 "github.com/stolostron/api/client/cluster/clientset/versioned/typed/cluster/v1alpha1"
+	fakeclusterv1alpha1 "github.com/stolostron/api/client/cluster/clientset/versioned/typed/cluster/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

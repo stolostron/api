@@ -2,7 +2,7 @@
 <!-- prow build badge, godoc, and go report card
 <img alt="Build Status" src="http://[prow-website]/badge.svg?jobs=build-open-cluster-management-api-amd64-postsubmit">
 -->
-</a> <a href="https://godoc.org/github.com/open-cluster-management/api"><img src="https://godoc.org/github.com/open-cluster-management/api?status.svg"></a> <a href="https://goreportcard.com/report/github.com/open-cluster-management/api"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/open-cluster-management/api" /></a> <a href="https://codecov.io/github/open-cluster-management/api?branch=master">
+</a> <a href="https://godoc.org/github.com/stolostron/api"><img src="https://godoc.org/github.com/stolostron/api?status.svg"></a> <a href="https://goreportcard.com/report/github.com/stolostron/api"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/stolostron/api" /></a> <a href="https://codecov.io/github/open-cluster-management/api?branch=master">
 <!--
 <img alt="Code Coverage" src="https://codecov.io/gh/IBM/go-repo-template/branch/master/graphs/badge.svg?branch=master" /></a>
 <a href="https://quay.io/repository/open-cluster-management/go-repo-template-amd64"><img alt="Docker Repository on Quay" src="https://quay.io/repository/open-cluster-management/go-repo-template/status" /></a>

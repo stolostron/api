@@ -3,8 +3,8 @@
 package scheme
 
 import (
-	clusterv1 "github.com/open-cluster-management/api/cluster/v1"
-	clusterv1alpha1 "github.com/open-cluster-management/api/cluster/v1alpha1"
+	clusterv1 "github.com/stolostron/api/cluster/v1"
+	clusterv1alpha1 "github.com/stolostron/api/cluster/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

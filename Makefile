@@ -45,4 +45,4 @@ update: update-scripts update-codegen-crds
 
 generate-with-container: Dockerfile.build
 	$(RUNTIME) build -t $(RUNTIME_IMAGE_NAME) -f Dockerfile.build .
-	$(RUNTIME) run -ti --rm -v $(PWD):/go/src/github.com/open-cluster-management/api:z -w /go/src/github.com/open-cluster-management/api $(RUNTIME_IMAGE_NAME) make update-scripts
+	$(RUNTIME) run -ti --rm -v $(PWD):/go/src/github.com/stolostron/api:z -w /go/src/github.com/stolostron/api $(RUNTIME_IMAGE_NAME) make update-scripts

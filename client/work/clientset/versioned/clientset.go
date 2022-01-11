@@ -5,7 +5,7 @@ package versioned
 import (
 	"fmt"
 
-	workv1 "github.com/open-cluster-management/api/client/work/clientset/versioned/typed/work/v1"
+	workv1 "github.com/stolostron/api/client/work/clientset/versioned/typed/work/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

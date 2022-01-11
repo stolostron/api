@@ -7,9 +7,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/open-cluster-management/api/client/addon/clientset/versioned"
-	addon "github.com/open-cluster-management/api/client/addon/informers/externalversions/addon"
-	internalinterfaces "github.com/open-cluster-management/api/client/addon/informers/externalversions/internalinterfaces"
+	versioned "github.com/stolostron/api/client/addon/clientset/versioned"
+	addon "github.com/stolostron/api/client/addon/informers/externalversions/addon"
+	internalinterfaces "github.com/stolostron/api/client/addon/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
